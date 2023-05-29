@@ -1,0 +1,23 @@
+.row.inp form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form.login i { 
+    padding: 0;
+    margin-top: 20px;
+}
+
+form.login i > input { 
+    height: 100%;
+}
+
+form.login input { 
+    width: 100px;
+    color: black;
+}
+
+form.login input[type='submit'] { 
+    width: 100px;
+    color: white;
+}

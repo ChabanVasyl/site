@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Реєстрація</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col l12 center-align">
+                <h1 class="animate__animated animate__backInDown">Реєстрація</h1>
+            </div>
+        </div>
+        <div class="row inp">
+            <div class="col l12 center-align">
+                <form class="login animate__animated animate__delay-1s animate__fadeIn">
+                    <div>Ім'я: <input type="text" name="name" class="reset" id="signup-name"></div>
+                    <div>Пароль: <input type="password" name="pass" class="reset" id="signup-pass"></div>
+                    <div>Email: <input type="text" name="email" class="reset" id="signup-email"></div>
+                    <div>Дата народження: <input type="text" name="birthday" class="reset" id="signup-birthdays"></div>
+                    <div>
+                        <label>
+                            <input type="radio" value="male" checked name="sex" class="sex with-gap">
+                            <span>Чоловік</span>
+                        </label>
+                        <label>
+                            <input type="radio" value="female" name="sex" class="sex with-gap">
+                            <span>Жінка</span>
+                        </label>
+                        <label>
+                            <input type="radio" value="other" name="sex" class="sex with-gap">
+                            <span>Інше</span>
+                        </label>
+                    </div>
+                    <input class="waves-light waves-effect btn animate__animated animate__wobble" type="submit" value="Відправити" id="signup-submit">
+                </form>
+
+                <div class="card-panel teal lighten-2 animate__delay-2s animate__animated animate__fadeIn">
+                    <a href="/login.html"><button class="btn waves-effect waves-light" type="submit" name="action">Вже зареєстрований
+                        <i class="material-icons right">send</i>
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script></script>
+    <script src="./ajax.js"></script>
+    <script src="./srcipt.js"></script>
+    <script src="./materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
